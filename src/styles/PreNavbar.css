@@ -1,0 +1,33 @@
+.prenav{
+    background-color: rgb(29,28,28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+.prenav >div{
+    padding: 0vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.prenav >div > span {
+    color: rgba(180,180, 180, .644);
+    font-size: .8vmax;
+    font-weight: 100;
+}
+.prenav > div >a{
+    color: rgb(180,180, 180);
+    font-size: .9vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+}
+.prenav > div svg{
+    fill: rgb(180,180, 180);
+}
+.prenav >div svg:hover{
+    fill: rgb(255,255, 255);
+}
+.prenav >div >a:hover{
+    color: white;
+}
